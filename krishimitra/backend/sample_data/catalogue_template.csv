@@ -1,0 +1,2 @@
+sku,name,category_slug,product_type,description,pack_size,unit_qty,unit,price_paise,cost_paise,gst_rate_bp,crops,use_tags,safety_info
+YOUR-SKU-001,Replace with your real product,fertilizers,FERTILIZER,Describe the product,50 kg,50,kg,100000,80000,500,,basal,Add verified safety text

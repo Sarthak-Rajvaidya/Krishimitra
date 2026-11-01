@@ -1,0 +1,7 @@
+# Dataset notes (copy to ml/data/DATASET_NOTES.md before training)
+- Source dataset (Hugging Face id / URL):
+- Licence (copy from the dataset card):
+- Required attribution:
+- Crop/class coverage used:
+- Train/val/test methodology and leakage handling:
+- Reviewed by / date:

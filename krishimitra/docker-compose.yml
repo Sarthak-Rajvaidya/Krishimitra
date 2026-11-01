@@ -1,0 +1,49 @@
+# Local / single-server stack. For production put TLS in front (Caddy, Traefik or a cloud load balancer)
+# and use managed Postgres. Run exactly ONE worker container (background jobs are not leader-elected).
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: krishimitra
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-krishimitra}
+      POSTGRES_DB: krishimitra
+    command: ["postgres", "-c", "max_connections=300"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U krishimitra"]
+      interval: 5s
+      retries: 10
+  redis:
+    image: redis:7-alpine
+  qdrant:
+    image: qdrant/qdrant:v1.9.7
+    volumes: [qdrantdata:/qdrant/storage]
+  api:
+    build: ./backend
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+psycopg://krishimitra:${POSTGRES_PASSWORD:-krishimitra}@postgres:5432/krishimitra
+      QDRANT_URL: http://qdrant:6333
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      postgres: { condition: service_healthy }
+    volumes: [uploads:/srv/storage]
+    deploy: { replicas: 1 }      # scale with: docker compose up -d --scale api=3 (then drop any fixed host port)
+  worker:
+    build: ./backend
+    command: ["python", "-m", "app.worker"]
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+psycopg://krishimitra:${POSTGRES_PASSWORD:-krishimitra}@postgres:5432/krishimitra
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      postgres: { condition: service_healthy }
+    volumes: [uploads:/srv/storage]
+  web:
+    build: ./frontend
+    ports: ["8080:80"]
+    depends_on: [api]
+volumes:
+  pgdata:
+  qdrantdata:
+  uploads:

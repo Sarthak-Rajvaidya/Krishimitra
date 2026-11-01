@@ -1,0 +1,8 @@
+torch>=2.3
+torchvision>=0.18
+scikit-learn>=1.5
+datasets>=2.20
+sentence-transformers>=3.0
+google-genai>=0.7
+mistralai>=1.0
+groq>=0.9

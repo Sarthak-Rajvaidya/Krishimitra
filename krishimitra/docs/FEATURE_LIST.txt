@@ -1,0 +1,966 @@
+1. User roles and access management
+2. Farmer
+3. Agricultural Expert / Advisor
+4. Supplier / Retailer / Shop Owner
+5. Delivery Partner
+6. Soil Testing Center
+7. District Center Manager
+8. Admin
+9. Super Admin / Platform Owner
+10. Authentication and registration
+2.1 Common authentication
+- Sign up
+- Login
+- Logout
+- Mobile number authentication
+- OTP verification
+- Email authentication
+- Forgot password
+- Reset password
+- Change password
+- Session management
+- Account verification
+- Account activation/deactivation
+- Role-based login
+- Role-based permissions
+2.2 Farmer registration
+- Personal details
+- Name and contact information
+- Mobile verification
+- Address
+- State, district, village
+- Farm location
+- Land ownership information
+- Farm size
+- Agricultural experience
+- Main crops
+- Profile photograph
+- Document upload
+- Registration completion
+2.3 Expert registration
+- Personal details
+- Qualification
+- Specialization
+- Experience
+- Certifications
+- Location
+- Profile photograph
+- Consultation charges
+- Availability
+- Document verification
+- Approval status
+2.4 Supplier registration
+- Owner details
+- Shop/business name
+- Shop address
+- Business registration details
+- Contact information
+- Product categories
+- GST/business documents, where applicable
+- Bank/payment details
+- Shop location
+- Verification and approval
+2.5 Delivery partner registration
+- Personal information
+- Mobile verification
+- Address
+- Vehicle information
+- Driving licence
+- Identity documents
+- Service area
+- Verification
+
+3. Farmer application
+3.1 Farmer dashboard
+- Farm overview
+- Crop overview
+- Soil condition
+- Weather overview
+- Live IoT data
+- AI recommendations
+- Disease alerts
+- Irrigation status
+- Recent orders
+- Upcoming appointments
+- Notifications
+- Farming activity summary
+- Quick actions
+3.2 Farmer profile
+- View profile
+- Edit profile
+- Personal details
+- Contact details
+- Address
+- Profile photograph
+- Documents
+- Farm details
+- Account settings
+- Privacy settings
+3.3 Multiple farm management
+- Add farm
+- Edit farm
+- Delete farm
+- Multiple farm registration
+- Farm name
+- Farm location
+- GPS coordinates
+- Land area
+- Soil type
+- Irrigation source
+- Farm boundaries
+- Farm-wise crop management
+- Farm-wise sensor assignment
+- Farm history
+3.4 Field management
+- Add fields
+- Multiple fields per farm
+- Field identification
+- Field area
+- Field location
+- Field-wise crop details
+- Field-wise soil details
+- Field-wise sensor monitoring
+- Field history
+
+4. Crop management
+- Add crop
+- Select crop
+- Crop category
+- Crop variety
+- Crop name
+- Crop season
+- Sowing date
+- Transplanting date
+- Expected harvesting date
+- Actual harvesting date
+- Crop growth stage
+- Crop duration
+- Crop health
+- Crop history
+- Previous crops
+- Active crops
+- Crop-wise farm mapping
+- Crop-wise soil mapping
+- Crop-wise irrigation tracking
+- Crop-wise fertilizer records
+- Crop-wise pesticide records
+- Crop production records
+- Yield records
+- Crop expense records
+- Harvest records
+- Crop performance reports
+
+5. AI crop disease detection
+- Capture crop image
+- Upload crop image
+- Upload leaf image
+- Image analysis
+- AI disease identification
+- Disease name
+- Disease description
+- Disease symptoms
+- Probable causes
+- Disease severity
+- Affected crop identification
+- Treatment recommendations
+- Preventive measures
+- Pesticide recommendations
+- Organic treatment recommendations
+- Fertilizer recommendations
+- Expert referral
+- Diagnosis history
+- Save diagnosis
+- Share diagnosis
+- Follow-up diagnosis
+
+6. AI farmer assistant
+- AI farming chatbot
+- Text-based questions
+- Crop-related questions
+- Soil-related questions
+- Fertilizer questions
+- Pesticide questions
+- Disease-related questions
+- Irrigation questions
+- Weather-related questions
+- Government scheme questions
+- Personalized answers
+- Crop-specific answers
+- Regional language support
+- Voice-based questions
+- Text-to-speech responses
+- Conversation history
+- Follow-up questions
+- Farming knowledge assistance
+
+7. AI farm advisory and recommendation engine
+- Crop recommendations
+- Soil-based recommendations
+- Weather-based recommendations
+- Season-based recommendations
+- Fertilizer recommendations
+- Pesticide recommendations
+- Disease prevention recommendations
+- Irrigation recommendations
+- Water management recommendations
+- Crop growth recommendations
+- Harvest recommendations
+- Pest management
+- Organic farming guidance
+- Sustainable farming guidance
+- Personalized advisory
+- Field-specific advisory
+- Timely advisory notifications
+- Advisory history
+
+8. Soil management and soil testing
+8.1 Soil information
+- Soil type
+- Soil condition
+- Soil moisture
+- Soil pH
+- Nitrogen information
+- Phosphorus information
+- Potassium information
+- Soil fertility
+- Soil health history
+- Soil data entry
+8.2 Soil testing services
+- Find soil testing center
+- Book soil test
+- Select testing location
+- Select testing date
+- Sample collection request
+- Sample tracking
+- Testing status
+- Soil test report
+- Download report
+- View historical reports
+- Expert interpretation
+- Fertilizer recommendations
+- Crop suitability recommendations
+- Soil improvement recommendations
+
+9. Agricultural expert / advisor module
+9.1 Expert discovery
+- Browse experts
+- Search experts
+- Filter by specialization
+- Filter by location
+- Expert profiles
+- Qualification
+- Experience
+- Ratings
+- Consultation charges
+- Availability
+9.2 Expert consultation
+- Farmer queries
+- Chat consultation
+- Video consultation
+- Audio consultation
+- Appointment booking
+- Appointment scheduling
+- Appointment cancellation
+- Rescheduling
+- Expert responses
+- Follow-up consultation
+- Consultation history
+- Farm visit requests
+- Expert recommendations
+- Consultation feedback
+- Ratings and reviews
+9.3 Expert dashboard
+- Profile management
+- Availability management
+- Farmer requests
+- Pending appointments
+- Upcoming appointments
+- Completed consultations
+- Farmer chat
+- Video calls
+- Advisory management
+- Earnings
+- Consultation history
+- Notifications
+
+10. Agricultural marketplace
+10.1 Product categories
+- Seeds
+- Fertilizers
+- Organic fertilizers
+- Pesticides
+- Insecticides
+- Fungicides
+- Herbicides
+- Agricultural chemicals
+- Farming tools
+- Agricultural equipment
+- Irrigation equipment
+- Drip irrigation systems
+- Sprinklers
+- Pumps
+- Greenhouse equipment
+- Plant protection products
+- Other agricultural supplies
+10.2 Product discovery
+- Browse products
+- Search products
+- Category filtering
+- Brand filtering
+- Price filtering
+- Location filtering
+- Product details
+- Product photographs
+- Product specifications
+- Product description
+- Product price
+- Product availability
+- Stock status
+- Supplier information
+- Product comparison
+- Customer ratings
+- Customer reviews
+- Related products
+- Recommended products
+10.3 Product purchasing
+- Add to cart
+- Remove from cart
+- Update quantity
+- Wishlist
+- Checkout
+- Delivery address
+- Order placement
+- Order confirmation
+- Order tracking
+- Order cancellation
+- Purchase history
+- Invoice
+- Return request
+- Refund status
+- Product reviews
+
+11. AI-to-marketplace integration
+This is an important feature connecting advisory with purchasing.
+- AI identifies crop problems
+- AI recommends treatment
+- Expert recommends treatment
+- Identify required agricultural inputs
+- Recommend fertilizers
+- Recommend pesticides
+- Recommend seeds
+- Recommend equipment
+- Find relevant products
+- Find nearby suppliers
+- Compare available products
+- Compare prices
+- Check availability
+- Contact supplier
+- Add recommended products to cart
+- Purchase recommended products
+
+12. Supplier / retailer portal
+12.1 Business management
+- Supplier dashboard
+- Business profile
+- Shop information
+- Shop location
+- Contact information
+- Business verification
+- Operating hours
+- Service areas
+12.2 Product management
+- Add products
+- Edit products
+- Delete products
+- Upload product images
+- Product descriptions
+- Product categories
+- Brand information
+- Product pricing
+- Discount management
+- Stock management
+- Inventory management
+- Product availability
+- Product approval status
+12.3 Order management
+- New orders
+- Accept orders
+- Reject orders
+- Process orders
+- Update order status
+- Ready for dispatch
+- Dispatch orders
+- Completed orders
+- Cancelled orders
+- Order history
+- Customer information
+12.4 Supplier analytics
+- Total sales
+- Total orders
+- Pending orders
+- Completed orders
+- Product performance
+- Inventory reports
+- Revenue reports
+- Earnings
+- Customer information
+- Sales history
+
+13. Agricultural machinery and rental
+13.1 Machine categories
+- Tractor
+- Harvester
+- Rotavator
+- Cultivator
+- Seed drill
+- Sprayer
+- Thresher
+- JCB
+- Agricultural pumps
+- Other farm machinery
+13.2 Machine rental
+- Browse machines
+- Search machines
+- Machine details
+- Machine photographs
+- Machine specifications
+- Owner information
+- Location
+- Availability
+- Rental price
+- Hourly rental
+- Daily rental
+- Booking request
+- Booking confirmation
+- Rental duration
+- Booking cancellation
+- Rental history
+- Payment
+- Ratings and reviews
+13.3 Machine owner dashboard
+- Add machine
+- Edit machine
+- Delete machine
+- Machine availability
+- Rental pricing
+- Booking requests
+- Accept/reject bookings
+- Rental history
+- Earnings
+
+14. Order management
+- Order creation
+- Order confirmation
+- Order ID generation
+- Supplier acceptance
+- Order processing
+- Order packing
+- Order dispatch
+- Delivery assignment
+- Order tracking
+- Delivery confirmation
+- Order cancellation
+- Return management
+- Refund management
+- Order history
+- Invoice generation
+- Order notifications
+- Order reports
+
+15. Delivery management
+Delivery partner
+- Registration
+- Login
+- Profile management
+- Vehicle information
+- Assigned deliveries
+- Accept/reject delivery
+- Pickup information
+- Farmer delivery address
+- Navigation
+- Delivery status
+- Pickup confirmation
+- OTP verification
+- Delivery confirmation
+- Delivery history
+- Earnings
+- Ratings
+Delivery administration
+- Assign delivery partners
+- Manage deliveries
+- Monitor delivery status
+- Track delayed orders
+- Manage delivery areas
+- Delivery reports
+
+16. Weather and climate monitoring
+- Current weather
+- Temperature
+- Humidity
+- Rainfall
+- Weather forecast
+- Daily forecast
+- Weekly forecast
+- Rain prediction
+- Weather alerts
+- Extreme weather alerts
+- Wind information
+- Weather-based crop advisory
+- Weather-based irrigation recommendations
+- Location-based weather
+- Farm-specific weather
+
+17. IoT farm monitoring
+17.1 IoT device management
+- Register IoT device
+- Device identification
+- Device-to-farm mapping
+- Device-to-field mapping
+- Device status
+- Device connectivity
+- Device health
+- Device activation
+- Device deactivation
+- Device maintenance
+- Sensor configuration
+17.2 Sensor monitoring
+- Soil moisture sensor
+- Temperature sensor
+- Humidity sensor
+- Rain sensor
+- Water-level sensor
+- Sensor readings
+- Real-time sensor data
+- Latest sensor readings
+- Sensor status
+- Sensor connectivity
+- Sensor error alerts
+17.3 Real-time data
+- Soil moisture readings
+- Temperature readings
+- Humidity readings
+- Rain status
+- Water-level readings
+- Field condition
+- Live sensor status
+- Pump status
+- Irrigation status
+- Real-time dashboard
+
+18. Smart irrigation and automation
+- Automatic irrigation
+- Manual irrigation
+- Soil moisture-based irrigation
+- Automatic pump control
+- Pump ON/OFF
+- Relay control
+- Water-level monitoring
+- Rain-aware irrigation
+- Irrigation scheduling
+- Irrigation duration
+- Irrigation history
+- Pump activity history
+- Irrigation notifications
+- Low-water alerts
+- Manual override
+- Irrigation automation settings
+
+19. IoT monitoring website
+- Separate web-based IoT dashboard
+- Login
+- Device overview
+- Farm overview
+- Live sensor readings
+- Soil moisture monitoring
+- Temperature monitoring
+- Humidity monitoring
+- Water-level monitoring
+- Rain monitoring
+- Pump status
+- Irrigation status
+- Device connectivity
+- Sensor history
+- Graphs and charts
+- Historical data
+- Device alerts
+- Field status
+
+20. Sensor history and analytics
+- Historical sensor data
+- Date-wise records
+- Time-wise records
+- Soil moisture history
+- Temperature history
+- Humidity history
+- Water-level history
+- Rain history
+- Pump history
+- Irrigation history
+- Data charts
+- Trend analysis
+- Historical comparison
+- Download sensor reports
+- Farm-wise sensor reports
+
+21. Alerts and notifications
+Farming alerts
+- Disease alerts
+- Pest alerts
+- Crop-care alerts
+- Fertilizer reminders
+- Irrigation reminders
+- Harvest reminders
+- Weather alerts
+IoT alerts
+- Low soil moisture
+- High soil moisture
+- High temperature
+- Low water level
+- Rain detection
+- Sensor disconnection
+- Device malfunction
+- Pump status
+- Irrigation completion
+Platform alerts
+- Order confirmation
+- Order status
+- Delivery updates
+- Payment updates
+- Appointment reminders
+- Expert messages
+- Product availability
+- Account notifications
+Notification management
+- In-app notifications
+- Push notifications
+- SMS notifications
+- Email notifications
+- Notification history
+- Read/unread status
+- Notification preferences
+
+22. Farmer community and social platform
+- Farmer registration in community
+- Farmer profiles
+- Create posts
+- Upload photographs
+- Upload videos
+- Share farming experiences
+- Ask questions
+- Answer questions
+- Comments
+- Likes
+- Replies
+- Share posts
+- Farmer groups
+- Topic-based discussions
+- Expert participation
+- Community announcements
+- Success stories
+- Report inappropriate content
+- Community moderation
+
+23. Agricultural learning and knowledge center
+- Farming articles
+- Crop guides
+- Crop cultivation guides
+- Disease information
+- Pest management guides
+- Fertilizer guides
+- Soil management guides
+- Irrigation guides
+- Organic farming guides
+- Agricultural videos
+- Expert videos
+- Training materials
+- Seasonal farming guides
+- Educational notifications
+- Search knowledge content
+- Save learning materials
+
+24. Government schemes and subsidies
+- Government scheme listing
+- Scheme categories
+- Scheme descriptions
+- Eligibility criteria
+- Required documents
+- Application procedure
+- Subsidy information
+- State-specific schemes
+- Central government schemes
+- Agricultural benefits
+- Application guidance
+- Scheme notifications
+- Scheme updates
+- Application status tracking, where supported
+- Important deadlines
+
+25. Financial services
+- Farmer wallet
+- Add money
+- Wallet balance
+- Transaction history
+- Online payments
+- UPI payments
+- Payment gateway integration
+- Refunds
+- Payment receipts
+- Agricultural loan information
+- Loan application guidance
+- Crop insurance information
+- Insurance application guidance
+- Subsidy information
+- EMI information
+- Financial assistance information
+
+26. Reviews, ratings and feedback
+- Product ratings
+- Product reviews
+- Supplier ratings
+- Expert ratings
+- Expert reviews
+- Machine ratings
+- Delivery partner ratings
+- Service feedback
+- Complaint submission
+- Feedback history
+- Review moderation
+
+27. Help and customer support
+- Help center
+- FAQs
+- Contact support
+- Support tickets
+- Raise complaints
+- Complaint categories
+- Complaint status
+- Ticket assignment
+- Support chat
+- Call support
+- Complaint resolution
+- Escalation
+- Support history
+
+28. Admin panel
+28.1 Admin dashboard
+- Total farmers
+- Total experts
+- Total suppliers
+- Total products
+- Total orders
+- Total machines
+- Total IoT devices
+- Active users
+- Pending approvals
+- Revenue overview
+- Platform activity
+- Reports and analytics
+28.2 User management
+- View users
+- Search users
+- Filter users
+- Add users
+- Edit users
+- Verify users
+- Approve users
+- Reject registrations
+- Suspend accounts
+- Activate accounts
+- Block/unblock accounts
+- User history
+28.3 Farmer management
+- Farmer profiles
+- Farm information
+- Crop information
+- Farmer verification
+- Farmer complaints
+- Farmer activity
+28.4 Expert management
+- Expert profiles
+- Qualification verification
+- Expert approvals
+- Expert availability
+- Consultation monitoring
+- Expert complaints
+28.5 Supplier management
+- Supplier profiles
+- Supplier verification
+- Shop approval
+- Product approval
+- Supplier activity
+- Supplier complaints
+28.6 Marketplace management
+- Product management
+- Category management
+- Brand management
+- Price monitoring
+- Inventory monitoring
+- Product approval
+- Product removal
+28.7 Order and delivery management
+- All orders
+- Pending orders
+- Completed orders
+- Cancelled orders
+- Delivery assignments
+- Delivery tracking
+- Refund management
+28.8 IoT administration
+- Device registration
+- Device management
+- Sensor management
+- Device-to-farm mapping
+- Device status
+- Sensor status
+- IoT activity
+- Device maintenance records
+28.9 Content management
+- Articles
+- Videos
+- Farming guides
+- Educational materials
+- Community content
+- Announcements
+- Notifications
+28.10 Platform reports
+- User reports
+- Product reports
+- Order reports
+- Revenue reports
+- Consultation reports
+- IoT reports
+- Sensor reports
+- Complaint reports
+
+29. Super Admin / Platform Owner
+- Complete platform overview
+- Admin management
+- Create admin accounts
+- Edit admin accounts
+- Remove admin accounts
+- Role management
+- Permission management
+- District management
+- Regional management
+- Platform configuration
+- Business analytics
+- Revenue analytics
+- Financial reports
+- Audit logs
+- System settings
+- Platform-wide notifications
+- Expansion management
+- Franchise management
+- Platform control
+
+30. District and regional management
+- Create district centers
+- Assign district managers
+- Manage district farmers
+- Manage local suppliers
+- Manage local experts
+- Manage soil testing centers
+- Manage machinery providers
+- Manage delivery areas
+- Monitor district activity
+- District-wise reports
+- District-wise analytics
+- Regional performance
+- District-level complaints
+
+31. Security and privacy
+- Secure authentication
+- Role-based authorization
+- Data access restrictions
+- User-specific information
+- Secure API access
+- Password protection
+- OTP verification
+- Session security
+- Account security
+- Data encryption
+- Secure document storage
+- Activity logging
+- Audit logs
+- Privacy settings
+- Account deletion request
+- Backup and recovery
+
+32. Multi-language and accessibility
+- English language
+- Hindi language
+- Marathi language
+- Regional language support
+- Language selection
+- Language preferences
+- Voice assistant
+- Text-to-speech
+- Speech-to-text
+- Simple farmer-friendly interface
+- Accessibility settings
+- Readable text
+- Mobile-friendly interface
+
+33. Reports and analytics
+Farmer reports
+- Farm reports
+- Crop reports
+- Soil reports
+- Sensor reports
+- Irrigation reports
+- Crop expense reports
+- Yield reports
+Expert reports
+- Consultation reports
+- Appointment reports
+- Farmer query reports
+- Earnings reports
+Supplier reports
+- Sales reports
+- Order reports
+- Product reports
+- Inventory reports
+- Revenue reports
+Admin reports
+- User reports
+- Farmer reports
+- Supplier reports
+- Expert reports
+- Marketplace reports
+- Order reports
+- Delivery reports
+- IoT reports
+- Financial reports
+- District reports
+- Platform performance reports
+
+
+34. Additional future expansion features
+These are potential expansion modules, not confirmed requirements in the original project material.
+- AI crop yield prediction
+- AI crop price prediction
+- Crop disease outbreak prediction
+- Smart crop planning
+- Smart fertilizer calculator
+- Fertilizer dosage calculator
+- Water requirement calculator
+- Crop profitability calculator
+- Agricultural expense management
+- Farm profit/loss tracking
+- Harvest marketplace
+- Farmer-to-buyer direct selling
+- Wholesale marketplace
+- Agricultural export marketplace
+- Contract farming
+- Warehouse management
+- Cold storage discovery
+- Transportation booking
+- Agricultural equipment purchasing
+- Agricultural insurance claims
+- Government document assistance
+- Digital farm records
+- Digital crop diary
+- Farm activity calendar
+- Agricultural training registration
+- Live expert webinars
+- AI voice assistant
