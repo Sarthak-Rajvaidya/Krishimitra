@@ -256,11 +256,11 @@ def _seed_orders(db, rnd, farmers, admin, partner) -> None:
             try:
                 orders = co.place_order(db, f, addr.id, PaymentMode.COD, "WELCOME5" if rnd.random() < 0.25 else None, None)
             except Exception:
+                # Roll back the failed checkout transaction. Do not manually
+                # delete cart items here: the rollback restores the transaction
+                # state, and the Cart.items relationship may still hold deleted
+                # ORM instances from the failed checkout.
                 db.rollback()
-                cart = db.scalar(select(Cart).where(Cart.user_id == f.id))
-                for it in list(cart.items):
-                    db.delete(it)
-                db.commit()
                 continue
             when = today - timedelta(days=day, hours=rnd.randint(0, 10))
             for o in orders:
